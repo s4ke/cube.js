@@ -2,17 +2,17 @@
 
 Please see the [blog post](https://cube.dev/blog/building-metrics-dashboard-with-superset/) for instructions.
 
-## Running Superset locally
+# Setting up the stack locally
 
-Please make sure you have [Docker](https://www.docker.com/get-started) installed on your machine.
-
-You can explore the [instructions](https://hub.docker.com/r/apache/superset) to run Superset on Docker Hub. First, let's download and start a container:
+Setup:
 
 ```bash
-docker run -d --network host --name superset apache/superset
+docker-compose up -d
 ```
 
-Second, setup an admin account. By default, the username and password would be set to `admin`, but you can definitely adjust the credentials as you wish:
+## Setting up Superset locally
+
+Setup an admin account. By default, the username and password would be set to `admin`, but you can definitely adjust the credentials as you wish:
 
 ```bash
 docker exec -it superset superset fab create-admin \
@@ -58,7 +58,6 @@ version: '2.2'
 services:
   cube:
     image: cubejs/cube:latest
-    network_mode: host
     ports:
       - 4000:4000
       - 3306:3306
