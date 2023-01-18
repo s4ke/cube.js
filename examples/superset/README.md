@@ -9,7 +9,7 @@ Please make sure you have [Docker](https://www.docker.com/get-started) installed
 You can explore the [instructions](https://hub.docker.com/r/apache/superset) to run Superset on Docker Hub. First, let's download and start a container:
 
 ```bash
-docker run -d -p 8080:8088 --name superset apache/superset
+docker run -d --network host --name superset apache/superset
 ```
 
 Second, setup an admin account. By default, the username and password would be set to `admin`, but you can definitely adjust the credentials as you wish:
@@ -58,6 +58,7 @@ version: '2.2'
 services:
   cube:
     image: cubejs/cube:latest
+    network_mode: host
     ports:
       - 4000:4000
       - 3306:3306
