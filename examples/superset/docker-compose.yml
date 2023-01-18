@@ -2,7 +2,7 @@ version: '2.2'
 services:
   superset:
     image: apache/superset
-    name: "superset"
+    container_name: "superset"
     ports:
       - 8080:8080
 
