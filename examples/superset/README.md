@@ -2,6 +2,10 @@
 
 Please see the [blog post](https://cube.dev/blog/building-metrics-dashboard-with-superset/) for instructions.
 
+# Get an environment
+
+https://labs.play-with-docker.com
+
 # Setting up the stack locally
 
 Setup:
