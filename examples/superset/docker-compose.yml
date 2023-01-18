@@ -4,7 +4,7 @@ services:
     image: apache/superset
     container_name: "superset"
     ports:
-      - 8080:8080
+      - 8080:8088
 
   cube:
     image: cubejs/cube:latest
