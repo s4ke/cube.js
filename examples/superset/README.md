@@ -46,3 +46,6 @@ That's it! Now you should be able to navigate to [localhost:8080](http://localho
 The last part of configuration is the [data schema](https://cube.dev/docs/schema/getting-started) which declaratively describes the metrics we'll be putting on the dashboard. Actually, Cube can generate it for us!
 
 Navigate to [localhost:4000](http://localhost:4000) and, on the Schema tab, select the "public" schema with all tables, and generate data schema files. Now, you should be able to see files like `LineItems.js`, `Orders.js`, `Users.js`, etc. under the "schema" folder.
+
+![grafik](https://user-images.githubusercontent.com/719760/213316997-e7dc1fa7-c481-48b3-ad3a-e5bc7cea7213.png)
+
