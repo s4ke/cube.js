@@ -47,5 +47,5 @@ The last part of configuration is the [data schema](https://cube.dev/docs/schema
 
 Navigate to [localhost:4000](http://localhost:4000) and, on the Schema tab, select the "public" schema with all tables, and generate data schema files. Now, you should be able to see files like `LineItems.js`, `Orders.js`, `Users.js`, etc. under the "schema" folder.
 
-![grafik](https://user-images.githubusercontent.com/719760/213316997-e7dc1fa7-c481-48b3-ad3a-e5bc7cea7213.png)
+![grafik](https://user-images.githubusercontent.com/719760/213317751-1b44a98f-20d6-4d7f-bf3d-3ebb64261203.png)
 
