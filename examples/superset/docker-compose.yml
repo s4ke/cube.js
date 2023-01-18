@@ -1,5 +1,11 @@
 version: '2.2'
 services:
+  superset:
+    image: apache/superset
+    name: "superset"
+    ports:
+      - 8080:8080
+
   cube:
     image: cubejs/cube:latest
     ports:
