@@ -14,8 +14,25 @@ Create a node:
 
 # Clone the repository
 
+```bash
+git clone https://github.com/s4ke/cube.js.git
 ```
-git clone 
+
+Next, we can go into the repository itself, the next commands will all happen there:
+
+```bash
+cd cube.js
+```
+
+Once done, your shell should look like this: ![grafik](https://user-images.githubusercontent.com/719760/213940905-de213246-6a95-4634-bbed-53b9289f1a5a.png)
+
+# Install a terminal code editor
+
+To do some editing later, we need an editor installed. We can simply install one
+
+```bash
+apt-get update
+apt-get install -y nano
 ```
 
 # Setting up the stack locally
