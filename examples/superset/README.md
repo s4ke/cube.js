@@ -36,10 +36,9 @@ apk add nano
 
 ![grafik](https://user-images.githubusercontent.com/719760/213940982-8d5dfeab-7edd-4344-817d-51914251d99b.png)
 
-
 # Setting up the stack locally
 
-Setup:
+To setup, we simply run the following command in the terminal:
 
 ```bash
 docker-compose up -d
