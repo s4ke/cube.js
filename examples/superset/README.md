@@ -31,8 +31,7 @@ Once done, your shell should look like this: ![grafik](https://user-images.githu
 To do some editing later, we need an editor installed. We can simply install one
 
 ```bash
-apt-get update
-apt-get install -y nano
+apk add nano
 ```
 
 # Setting up the stack locally
