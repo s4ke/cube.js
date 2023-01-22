@@ -47,8 +47,21 @@ cd examples/cube.js
 docker-compose up -d
 ```
 
+Docker Compose will now setup all the necessary containers:
+
 ![grafik](https://user-images.githubusercontent.com/719760/213941071-101ccd7d-7d02-41da-80ff-0b80ec510cf9.png)
 
+After a while you will notice that some services have been exposed via ports:
+
+![grafik](https://user-images.githubusercontent.com/719760/213941103-6a62cffb-64f6-434f-b6f3-d2ffc0ffb3fe.png)
+
+Under port 8080 we can find Superset:
+
+![grafik](https://user-images.githubusercontent.com/719760/213941121-c1fef348-6176-4fc0-b7e1-2d1e5022b313.png)
+
+Under Port 4000 we can find the cube.js playground:
+
+![grafik](https://user-images.githubusercontent.com/719760/213941141-e2f9aa79-b705-414a-b525-accf5782ff6f.png)
 
 ## Setting up Superset locally
 
