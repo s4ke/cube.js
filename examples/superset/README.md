@@ -73,6 +73,10 @@ We can even explore data:
 
 ![grafik](https://user-images.githubusercontent.com/719760/213941189-67967d3d-11b3-4546-ba64-0110c1d0eea6.png)
 
+Or create a dashboard app (this will take a while):
+
+![grafik](https://user-images.githubusercontent.com/719760/213943025-2231d4ea-555e-43e6-a802-b81bda22d03b.png)
+
 
 ## Setting up Superset locally
 
