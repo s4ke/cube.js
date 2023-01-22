@@ -157,7 +157,18 @@ Next, we can select the dashboard we want to import.
 
 ![grafik](https://user-images.githubusercontent.com/719760/213943526-aa4ff3cb-f9ea-48cf-a789-258cf791365c.png)
 
-For this lab, we use [the sample dashboard](https://github.com/s4ke/cube.js/raw/master/examples/superset/acme-dashboard.json)
+For this lab, we use [the sample dashboard](https://github.com/s4ke/cube.js/raw/master/examples/superset/acme-dashboard.json) (right click and `save to` this link):
+
+![grafik](https://user-images.githubusercontent.com/719760/213943644-106d0681-38b4-4806-994b-8e49db81a0dd.png)
+
+We press import. And if we did everything correctly, we have now successfully imported the dashboard:
+
+![grafik](https://user-images.githubusercontent.com/719760/213943667-48276b85-f5d9-4aac-8ace-65794e6f4424.png)
+
+We can inspect it:
+
+![grafik](https://user-images.githubusercontent.com/719760/213943689-37e98eff-f1c9-4807-8bca-38fec28c3ceb.png)
+
 
 
 
