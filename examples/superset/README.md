@@ -149,7 +149,18 @@ We click finish here again. We have now successfully set up the database connect
 
 We still have no BI dashboard yet. To start off, we can import the one from this repository.
 
+For this we go to `Dashboards` and click the import button:
+
 ![grafik](https://user-images.githubusercontent.com/719760/213317918-40836b20-4da2-4ff9-a027-a176967f4f9f.png)
+
+Next, we can select the dashboard we want to import.
+
+![grafik](https://user-images.githubusercontent.com/719760/213943526-aa4ff3cb-f9ea-48cf-a789-258cf791365c.png)
+
+For this lab, we use [the sample dashboard](./acme-dashboard.json)
+
+
+
 
 
 
