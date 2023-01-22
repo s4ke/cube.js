@@ -145,7 +145,9 @@ We click on Finish and get:
 
 We click finish here again. We have now successfully set up the database connection.
 
-## Import Dashboard
+## Dashboards
+
+We still have no BI dashboard yet. To start off, we can import the one from this repository.
 
 ![grafik](https://user-images.githubusercontent.com/719760/213317918-40836b20-4da2-4ff9-a027-a176967f4f9f.png)
 
