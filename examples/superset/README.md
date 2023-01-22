@@ -34,6 +34,9 @@ To do some editing later, we need an editor installed. We can simply install one
 apk add nano
 ```
 
+![grafik](https://user-images.githubusercontent.com/719760/213940982-8d5dfeab-7edd-4344-817d-51914251d99b.png)
+
+
 # Setting up the stack locally
 
 Setup:
