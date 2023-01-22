@@ -21,7 +21,7 @@ git clone https://github.com/s4ke/cube.js.git
 Next, we can go into the repository itself, the next commands will all happen there:
 
 ```bash
-cd cube.js
+cd cube.js/examples/superset
 ```
 
 Once done, your shell should look like this: ![grafik](https://user-images.githubusercontent.com/719760/213940905-de213246-6a95-4634-bbed-53b9289f1a5a.png)
