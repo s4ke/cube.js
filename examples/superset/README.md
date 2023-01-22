@@ -47,6 +47,9 @@ cd examples/cube.js
 docker-compose up -d
 ```
 
+![grafik](https://user-images.githubusercontent.com/719760/213941071-101ccd7d-7d02-41da-80ff-0b80ec510cf9.png)
+
+
 ## Setting up Superset locally
 
 Setup an admin account. By default, the username and password would be set to `admin`, but you can definitely adjust the credentials as you wish:
