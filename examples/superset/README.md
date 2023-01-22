@@ -112,19 +112,38 @@ docker exec -it superset superset init
 
 That's it! Now you should be able to navigate to superset and log into your Superset instance using the username and password from above (if you didn't change this, that's `admin` and `admin`.
 
-## Running Cube locally
-
-The last part of configuration is the [data schema](https://cube.dev/docs/schema/getting-started) which declaratively describes the metrics we'll be putting on the dashboard. Actually, Cube can generate it for us!
-
-Navigate to [localhost:4000](http://localhost:4000) and, on the Schema tab, select the "public" schema with all tables, and generate data schema files. Now, you should be able to see files like `LineItems.js`, `Orders.js`, `Users.js`, etc. under the "schema" folder.
-
 ## Setup Datasource on Superset
+
+First, we go to the Database connections section of superset:
+
+![grafik](https://user-images.githubusercontent.com/719760/213943285-a8c44c7e-e8bd-4cd7-b441-bff27acf2765.png)
+
+Here we click on the button for a new database:
+
+![grafik](https://user-images.githubusercontent.com/719760/213943302-4d0030cc-264e-4ac2-b84b-1fe82b9e99e6.png)
+
+We select MySQL (cube.js emulates MySQL - in more modern versions this will be PostgreSQL, but for the sake of this tutorial this is fine):
 
 ![grafik](https://user-images.githubusercontent.com/719760/213317812-874f7d5b-a75d-40ae-9df1-b3dd07fe6381.png)
 
+We have to enter the connection details:
+
+```bash
+Host: cube
+Port: 3306
+Database Name: ecom
+Username: cube
+Password: 12345
+Display Name: cubejs
+```
 
 ![grafik](https://user-images.githubusercontent.com/719760/213317751-1b44a98f-20d6-4d7f-bf3d-3ebb64261203.png)
 
+We click on Finish and get: 
+
+![grafik](https://user-images.githubusercontent.com/719760/213943415-8dbc7a69-5f78-4fad-ae13-1930a0b2e1a0.png)
+
+We click finish here again. We have now successfully set up the database connection.
 
 ## Import Dashboard
 
