@@ -157,7 +157,7 @@ Next, we can select the dashboard we want to import.
 
 ![grafik](https://user-images.githubusercontent.com/719760/213943526-aa4ff3cb-f9ea-48cf-a789-258cf791365c.png)
 
-For this lab, we use [the sample dashboard](./acme-dashboard.json)
+For this lab, we use [the sample dashboard](https://github.com/s4ke/cube.js/raw/master/examples/superset/acme-dashboard.json)
 
 
 
