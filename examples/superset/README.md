@@ -63,6 +63,17 @@ Under Port 4000 we can find the cube.js playground:
 
 ![grafik](https://user-images.githubusercontent.com/719760/213941141-e2f9aa79-b705-414a-b525-accf5782ff6f.png)
 
+## Investigate cube.js
+
+cube.js allows us to explore the code for data cube that comes with this tutorial:
+
+![grafik](https://user-images.githubusercontent.com/719760/213941237-8abe95c3-9f9d-465b-b6ef-5df2098a6ca4.png)
+
+We can even explore data:
+
+![grafik](https://user-images.githubusercontent.com/719760/213941189-67967d3d-11b3-4546-ba64-0110c1d0eea6.png)
+
+
 ## Setting up Superset locally
 
 Setup an admin account. By default, the username and password would be set to `admin`, but you can definitely adjust the credentials as you wish:
