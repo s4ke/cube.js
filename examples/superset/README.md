@@ -87,11 +87,16 @@ docker exec -it superset superset fab create-admin \
   --password admin
 ```
 
-Then, initialize the database...
+![grafik](https://user-images.githubusercontent.com/719760/213941487-64cef2a7-9e6c-4d21-9342-1f1e0fd3eb8f.png)
+
+
+Then, initialize the database via migrations...
 
 ```bash
 docker exec -it superset superset db upgrade
 ```
+
+![grafik](https://user-images.githubusercontent.com/719760/213941526-a9462274-5928-4d48-9bd4-90ca96623109.png)
 
 ...and setup roles:
 
@@ -99,7 +104,7 @@ docker exec -it superset superset db upgrade
 docker exec -it superset superset init
 ```
 
-That's it! Now you should be able to navigate to [localhost:8080](http://localhost:8080/login/) and log into your Superset instance using the username and password from above.
+That's it! Now you should be able to navigate to superset and log into your Superset instance using the username and password from above.
 
 ## Running Cube locally
 
