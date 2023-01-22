@@ -6,6 +6,18 @@ Please see the [blog post](https://cube.dev/blog/building-metrics-dashboard-with
 
 https://labs.play-with-docker.com
 
+![grafik](https://user-images.githubusercontent.com/719760/213940741-65388c13-3d38-494f-a40f-6a89474f2550.png)
+
+Create a node:
+
+![grafik](https://user-images.githubusercontent.com/719760/213940796-96f94a91-f779-4f1c-9f74-9f349a3bf136.png)
+
+# Clone the repository
+
+```
+git clone 
+```
+
 # Setting up the stack locally
 
 Setup:
