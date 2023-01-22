@@ -104,6 +104,8 @@ docker exec -it superset superset db upgrade
 docker exec -it superset superset init
 ```
 
+![grafik](https://user-images.githubusercontent.com/719760/213941577-bb1e9af7-baa4-4221-83a4-67af5b8a2046.png)
+
 That's it! Now you should be able to navigate to superset and log into your Superset instance using the username and password from above.
 
 ## Running Cube locally
